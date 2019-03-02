@@ -45,12 +45,20 @@ p {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
 }
 .big {
-    font-size: 2.5rem;
-    font-weight: 900;
-    color: rgb(17, 26, 2);
+    font-size: 3rem;
+    font-weight: 1000;
+    color: #ff4501;
 }
 #tallies {
     display: none;
+}
+#restart {
+    margin: 10%;
+    padding: 2% 5%;
+}
+#done {
+    margin: auto;
+    padding: 1% 2%;
 }
 .animateImage {
     position: relative;

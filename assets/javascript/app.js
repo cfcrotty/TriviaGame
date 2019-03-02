@@ -27,6 +27,10 @@ var questionsArr = [
 ];
 $(document).ready(function () {
     $("#done").on("click", endGame);
+    //function to restart game
+    $("#restart").on("click", function() {
+        location.href = "index.html";
+    });
     //function to load the game & questions
     function loadGame() {
         for (var i = 0; i < questionsArr.length; i++) {
