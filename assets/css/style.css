@@ -1,6 +1,7 @@
 body {
     font-family: 'Playfair Display', serif;
     font-size: 10px;
+    background: url('../images/full-bloom.png') repeat center center fixed;
 }
 p {
     font-size: 15px;
